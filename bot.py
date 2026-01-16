@@ -27,7 +27,6 @@ async def handle_inbound(update: Update, context: ContextTypes.DEFAULT_TYPE):
         f"<b>📥 YANGI MUROJAAT</b>\n"
         f"━━━━━━━━━━━━━━━━━━\n"
         f"<b>👤 Kimdan:</b> {user.mention_html()}\n"
-        f"<b>🆔 ID:</b> <code>{user.id}</code>\n"
         f"━━━━━━━━━━━━━━━━━━\n"
         f"<b>💬 Xabar:</b>\n"
         f"{user_text}"
