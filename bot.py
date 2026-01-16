@@ -6,10 +6,8 @@ from telegram.ext import ApplicationBuilder, ContextTypes, MessageHandler, Comma
 from telegram.constants import ParseMode
 
 # Railway o'zgaruvchilari (Variables)
-# BOT_TOKEN = os.getenv('BOT_TOKEN')
-# ADMIN_GROUP_ID = int(os.getenv('ADMIN_GROUP_ID'))
-BOT_TOKEN = "8273590083:AAHBR1nPZipQEfLwjlEa8qVVmHQ8aIS-ClA"
-ADMIN_GROUP_ID = -1003539723068
+BOT_TOKEN = os.getenv('BOT_TOKEN')
+ADMIN_GROUP_ID = int(os.getenv('ADMIN_GROUP_ID'))
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
